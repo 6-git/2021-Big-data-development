@@ -22,7 +22,7 @@ public class login extends JFrame {
         String str=String.valueOf(password);
         String url = textField3.getText();
 
-        //if(admin.equals("user37")&&str.equals("pass@bngo37")&&url.equals("jdbc:hive2://bigdata129.depts.bingosoft.net:22129/user37_db"))
+        //if(admin.equals("username")&&str.equals("password")&&url.equals("jdbc:hive2://"))
         if(admin.equals("1")&&str.equals("1")&&url.equals("1"))
         {
             JOptionPane.showMessageDialog(this,"是否连接服务器？");

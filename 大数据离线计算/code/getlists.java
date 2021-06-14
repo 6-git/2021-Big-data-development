@@ -12,11 +12,11 @@ public class getlists {
     private Statement statement;
 
     getlists() throws SQLException {
-        String url = "jdbc:hive2://bigdata129.depts.bingosoft.net:22129/user37_db";
+        String url = "jdbc:hive2://bigdata129.depts.bingosoft.net:";
         Properties properties = new Properties();
         properties.setProperty("driverClassName", "org.apache.hive.jdbc.HiveDriver");
-        properties.setProperty("user", "user37");
-        properties.setProperty("password", "pass@bngo37");
+        properties.setProperty("user", "user");
+        properties.setProperty("password", "password");
         Connection connection = DriverManager.getConnection(url, properties);
         statement = connection.createStatement();
     }
